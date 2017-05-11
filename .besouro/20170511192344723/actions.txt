@@ -37,3 +37,4 @@ UnitTestSessionAction 1494525244517 TestBowling.java OK
 RefactoringAction 1494525252522 TestBowling.java ADD void testGameFrame1()/2 METHOD
 RefactoringAction 1494525255540 TestBowling.java RENAME testGameFrame1()/2=>void testGameFrame2() METHOD
 EditAction 1494525286843 TestBowling.java 836 4 14 4
+EditAction 1494525302257 TestBowling.java 871 4 15 4
