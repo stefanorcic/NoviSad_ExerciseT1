@@ -49,3 +49,4 @@ CompilationAction 1494526321025 BowlingGame.java
 RefactoringAction 1494526328025 Frame.java ADD int bou FIELD
 RefactoringAction 1494526329538 Frame.java RENAME bou=>int bonus FIELD
 EditAction 1494526332448 Frame.java 964 6 8 0
+EditAction 1494526351632 BowlingGame.java 912 4 3 0
