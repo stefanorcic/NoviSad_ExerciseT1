@@ -115,3 +115,6 @@ UnitTestSessionAction 1494527487731 TestBowling.java FAIL
 RefactoringAction 1494527567599 TestBowling.java ADD void testFrame2()/2 METHOD
 RefactoringAction 1494527570114 TestBowling.java RENAME testFrame2()/2=>void testFrame3() METHOD
 EditAction 1494527618140 TestBowling.java 1339 6 25 6
+UnitTestCaseAction 1494527619944 TestBowling.java FAIL
+UnitTestSessionAction 1494527619944 TestBowling.java FAIL
+EditAction 1494527700259 Frame.java 1032 6 8 0
