@@ -10,3 +10,16 @@ UnitTestCaseAction 1494524548098 TestBowling.java OK
 UnitTestSessionAction 1494524548099 TestBowling.java OK
 FileOpenedAction 1494524636887 BowlingException.java 58 0 0 0
 EditAction 1494524786467 Frame.java 872 6 8 0
+CompilationAction 1494524786581 TestBowling.java
+RefactoringAction 1494524836143 TestBowling.java ADD void test()/2 METHOD
+RefactoringAction 1494524844663 TestBowling.java RENAME test()/2=>void testFra() METHOD
+RefactoringAction 1494524847681 TestBowling.java RENAME testFra()=>void testFram() METHOD
+RefactoringAction 1494524849695 TestBowling.java RENAME testFram()=>void testFrame1() METHOD
+RefactoringAction 1494524853211 TestBowling.java RENAME testFrame1()=>void testFrame1partija() METHOD
+RefactoringAction 1494524861733 TestBowling.java RENAME testFrame1partija()=>void testFrame1() METHOD
+RefactoringAction 1494524866249 TestBowling.java RENAME test()=>void testFrame2() METHOD
+CompilationAction 1494524886301 TestBowling.java
+UnitTestCaseAction 1494524888140 TestBowling.java OK
+UnitTestSessionAction 1494524888141 TestBowling.java OK
+RefactoringAction 1494525017316 BowlingGame.java ADD int score FIELD
+EditAction 1494525020655 BowlingGame.java 788 4 3 0
