@@ -51,8 +51,6 @@ public class BowlingGame {
 			if (frame.isSpare() && i < 10) {
 				e =  true;
 				score += frame.score();
-			} else if (e) {
-				
 			} else {
 				score += frame.score();
 				i++;

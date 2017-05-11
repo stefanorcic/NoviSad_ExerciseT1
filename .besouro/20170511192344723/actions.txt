@@ -160,3 +160,6 @@ RefactoringAction 1494528622038 TestBowling.java ADD void testFrameException1()/
 RefactoringAction 1494528625553 TestBowling.java RENAME testFrameException1()/2=>void testFrameException2() METHOD
 EditAction 1494528625805 TestBowling.java 1624 8 27 6
 EditAction 1494528630414 TestBowling.java 1624 8 27 6
+UnitTestCaseAction 1494528632010 TestBowling.java FAIL
+UnitTestSessionAction 1494528632011 TestBowling.java FAIL
+EditAction 1494528684785 BowlingGame.java 1491 4 6 0
