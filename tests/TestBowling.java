@@ -50,7 +50,11 @@ public class TestBowling {
 		assertEquals(expected, game.score());
 	}
 	@Test (expected = BowlingException.class)
-	public void testFrameException()  throws BowlingException {
+	public void testFrameException1()  throws BowlingException {
+		Frame fr = new Frame(10, 11);
+	}
+	@Test (expected = BowlingException.class)
+	public void testFrameException2()  throws BowlingException {
 		Frame fr = new Frame(10, 11);
 	}
 
