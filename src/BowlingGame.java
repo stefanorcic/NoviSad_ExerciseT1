@@ -47,15 +47,17 @@ public class BowlingGame {
 		int i = 0;
 		boolean e = false;
 		for (Frame frame : frames) {
-			
-			if (frames.get(i-1).isSpare() && i > 0) {
-				score += frames.get(i-1).score();
-			} else if (e) {
-				
-			} else {
-				score += frame.score();
-				i++;
+			if(i>0) {
+				if (frames.get(i-1).isSpare() && i > 0) {
+					score += frames.get(i-1).score();
+				} else if (e) {
+					
+				} else {
+					score += frame.score();
+					i++;
+				}
 			}
+			
 			
 		}
 		
