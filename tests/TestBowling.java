@@ -33,6 +33,15 @@ public class TestBowling {
 		int expected = 14;
 		assertEquals(expected, game.score());
 	}
+	@Test
+	public void testGameFrame3() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1,4));
+		game.addFrame(new Frame(4,5));
+		game.addFrame(new Frame(5,5));
+		int expected = 29;
+		assertEquals(expected, game.score());
+	}
 	
 
 }
