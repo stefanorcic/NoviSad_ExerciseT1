@@ -27,9 +27,21 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score
+		for (int i = 0; i < frames.size(); i++) {
+			if(frames.get(i).isSpare()){
+				
+			} else {
+				score += frame.score();
+			}
+			
+		}
 		for (Frame frame : frames) {
+			if(frame.isSpare()) {
+				frame.
+			}
 			score += frame.score();
 		}
+		
 		return score;
 	}
 }
