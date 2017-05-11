@@ -23,3 +23,4 @@ UnitTestCaseAction 1494524888140 TestBowling.java OK
 UnitTestSessionAction 1494524888141 TestBowling.java OK
 RefactoringAction 1494525017316 BowlingGame.java ADD int score FIELD
 EditAction 1494525020655 BowlingGame.java 788 4 3 0
+EditAction 1494525046052 BowlingGame.java 815 4 3 0

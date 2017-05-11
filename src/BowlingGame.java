@@ -28,8 +28,8 @@ public class BowlingGame {
 	public int score(){
 		//to be implemented: should return game score
 		for (Frame frame : frames) {
-			
+			score += frame.score();
 		}
-		return 0;
+		return score;
 	}
 }
