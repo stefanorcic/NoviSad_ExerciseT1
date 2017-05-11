@@ -55,3 +55,6 @@ RefactoringAction 1494526469111 TestBowling.java RENAME testGameFrame2()/2=>void
 EditAction 1494526514039 TestBowling.java 1146 5 21 5
 EditAction 1494526519036 Frame.java 971 6 8 0
 EditAction 1494526519118 BowlingGame.java 977 4 3 0
+UnitTestCaseAction 1494526519532 TestBowling.java FAIL
+UnitTestSessionAction 1494526519532 TestBowling.java FAIL
+EditAction 1494526539795 BowlingGame.java 979 4 3 0
