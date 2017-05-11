@@ -47,8 +47,8 @@ public class BowlingGame {
 		int i = 0;
 		for (Frame frame : frames) {
 			if (frame.isSpare() && i < 10) {
-				i++;
-			} else i {
+				
+			} else {
 				score += frame.score();
 				i++;
 			}
