@@ -48,9 +48,8 @@ public class BowlingGame {
 		boolean e = false;
 		for (Frame frame : frames) {
 			
-			if (frame.isSpare() && i < 10) {
-				e =  true;
-				score += frame.score();
+			if (frames.get(i-1).isSpare() && i > 0) {
+				score += frames.get(i-1).score();
 			} else if (e) {
 				
 			} else {
