@@ -24,8 +24,8 @@ public class BowlingGame {
 		//to be implemented
 		for (Frame frame : frames) {
 			int i = 0;
-			if (frame.isSpare() && i < 10) {
-				frame.bonus = frames.get(i+1).getFirstThrow();
+			if (frames.get(i-1).isSpare() && i > 0) {
+				frames.get(i-1).bonus = frames.get(i).getFirstThrow();
 				i++;
 			}
 		}
@@ -45,8 +45,13 @@ public class BowlingGame {
 			}
 		}*/
 		int i = 0;
+		boolean e = false;
 		for (Frame frame : frames) {
+			
 			if (frame.isSpare() && i < 10) {
+				e =  true;
+				score += frame.score();
+			} else if (e) {
 				
 			} else {
 				score += frame.score();
