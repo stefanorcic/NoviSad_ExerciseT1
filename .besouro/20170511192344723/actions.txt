@@ -53,3 +53,4 @@ EditAction 1494526351632 BowlingGame.java 912 4 3 0
 RefactoringAction 1494526466597 TestBowling.java ADD void testGameFrame2()/2 METHOD
 RefactoringAction 1494526469111 TestBowling.java RENAME testGameFrame2()/2=>void testGameFrame3() METHOD
 EditAction 1494526514039 TestBowling.java 1146 5 21 5
+EditAction 1494526519036 Frame.java 971 6 8 0

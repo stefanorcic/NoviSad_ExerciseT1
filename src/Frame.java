@@ -1,7 +1,7 @@
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
-	int bonus = 0;
+	public int bonus = 0;
 	
 	public Frame(int firstThrow, int secondThrow) throws BowlingException {
 		if(firstThrow>10 || secondThrow>10){
