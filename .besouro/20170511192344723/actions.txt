@@ -32,3 +32,8 @@ RefactoringAction 1494525126730 TestBowling.java RENAME testGame=>void testGameF
 EditAction 1494525160627 TestBowling.java 558 3 7 2
 RefactoringAction 1494525224933 TestBowling.java REMOVE game FIELD
 EditAction 1494525240538 TestBowling.java 648 3 11 3
+UnitTestCaseAction 1494525244516 TestBowling.java OK
+UnitTestSessionAction 1494525244517 TestBowling.java OK
+RefactoringAction 1494525252522 TestBowling.java ADD void testGameFrame1()/2 METHOD
+RefactoringAction 1494525255540 TestBowling.java RENAME testGameFrame1()/2=>void testGameFrame2() METHOD
+EditAction 1494525286843 TestBowling.java 836 4 14 4

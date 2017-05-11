@@ -21,8 +21,14 @@ public class TestBowling {
 	@Test
 	public void testGameFrame1() throws BowlingException {
 		BowlingGame game = new BowlingGame();
-		Frame fr = new Frame(1, 4);
-		game.addFrame(fr);
+		game.addFrame(new Frame(1, 4));
+		int expected = 5;
+		assertEquals(expected, game.score());
+	}
+	@Test
+	public void testGameFrame2() throws BowlingException {
+		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1,4));
 		int expected = 5;
 		assertEquals(expected, game.score());
 	}
