@@ -27,7 +27,7 @@ public class Frame {
 		//to be implemented
 		int prvi = getFirstThrow();
 		int drugi = getSecondThrow();
-		return prvi + drugi;
+		return prvi + drugi + bonus;
 	}
 
 	//returns whether the frame is a strike or not
