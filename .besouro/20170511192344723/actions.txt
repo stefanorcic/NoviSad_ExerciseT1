@@ -137,3 +137,12 @@ RefactoringAction 1494528282380 TestBowling.java RENAME <initializer /1>=>void t
 RefactoringAction 1494528291903 TestBowling.java RENAME test()=>void testFrameExe() METHOD
 RefactoringAction 1494528300425 TestBowling.java RENAME testFrameExe()=>void testFrameException() METHOD
 EditAction 1494528371674 TestBowling.java 1455 7 26 6
+CompilationAction 1494528371799 TestBowling.java
+UnitTestCaseAction 1494528376187 TestBowling.java FAIL
+UnitTestSessionAction 1494528376188 TestBowling.java FAIL
+CompilationAction 1494528437959 TestBowling.java
+CompilationAction 1494528437983 TestBowling.java
+UnitTestCaseAction 1494528439471 TestBowling.java FAIL
+UnitTestSessionAction 1494528439471 TestBowling.java FAIL
+CompilationAction 1494528522994 TestBowling.java
+EditAction 1494528525511 Frame.java 1045 6 8 0
