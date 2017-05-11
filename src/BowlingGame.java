@@ -29,10 +29,15 @@ public class BowlingGame {
 		//to be implemented: should return game score
 		for (int i = 0; i < frames.size()-1; i++) {
 			if(frames.get(i).isSpare()){
-				score += frames.get(i).score() + frames.get(i+1).getFirstThrow();
-			} else {
 				score += frames.get(i).score();
+				//score += frames.get(i).score() + frames.get(i+1).getFirstThrow();
+			} else {
+				//score += frames.get(i).score();
+				score += frames.get(i).score() + frames.get(i+1).getFirstThrow();
 			}
+		}
+		for (Frame frame : frames) {
+			//score += frame.score();
 		}
 		
 		return score;
