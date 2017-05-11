@@ -130,3 +130,10 @@ EditAction 1494528130663 BowlingGame.java 1548 4 6 0
 UnitTestCaseAction 1494528132186 TestBowling.java FAIL
 UnitTestSessionAction 1494528132187 TestBowling.java FAIL
 EditAction 1494528144142 BowlingGame.java 1517 4 6 0
+UnitTestCaseAction 1494528146395 TestBowling.java FAIL
+UnitTestSessionAction 1494528146396 TestBowling.java FAIL
+FileOpenedAction 1494528233093 BowlingException.java 58 0 0 0
+RefactoringAction 1494528282380 TestBowling.java RENAME <initializer /1>=>void test() METHOD
+RefactoringAction 1494528291903 TestBowling.java RENAME test()=>void testFrameExe() METHOD
+RefactoringAction 1494528300425 TestBowling.java RENAME testFrameExe()=>void testFrameException() METHOD
+EditAction 1494528371674 TestBowling.java 1455 7 26 6

@@ -49,6 +49,9 @@ public class TestBowling {
 		int expected = 29;
 		assertEquals(expected, game.score());
 	}
-	
+	@Test (expected = BowlingException.class)
+	public void testFrameException ()  {
+		Frame fr = new Frame(11, 4);
+	}
 
 }
