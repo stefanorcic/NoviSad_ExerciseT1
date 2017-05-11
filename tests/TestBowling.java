@@ -4,11 +4,9 @@ import org.junit.Test;
 
 public class TestBowling {
 
-	BowlingGame game = new BowlingGame();
 	@Test
 	public void testFrame1()  throws BowlingException  {
 		Frame fr = new Frame(1, 4);
-		game.addFrame(fr);
 		int expected = 5;
 		assertEquals(expected, fr.score());
 	}
@@ -22,7 +20,11 @@ public class TestBowling {
 	
 	@Test
 	public void testGameFrame1() throws BowlingException {
-		
+		BowlingGame game = new BowlingGame();
+		Frame fr = new Frame(1, 4);
+		game.addFrame(fr);
+		int expected = 5;
+		assertEquals(expected, game.score());
 	}
 	
 
