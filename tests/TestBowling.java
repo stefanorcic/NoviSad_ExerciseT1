@@ -55,7 +55,7 @@ public class TestBowling {
 	}
 	@Test (expected = BowlingException.class)
 	public void testFrameException2()  throws BowlingException {
-		Frame fr = new Frame(10, 11);
+		Frame fr = new Frame(11, 10);
 	}
 
 }
