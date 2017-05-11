@@ -27,7 +27,7 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score
-		for (int i = 0; i < frames.size()+1; i++) {
+		for (int i = 0; i < frames.size()-1; i++) {
 			if(frames.get(i).isSpare()){
 				score += frames.get(i).score() + frames.get(i+1).getFirstThrow();
 			} else {
