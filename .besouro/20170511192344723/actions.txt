@@ -43,3 +43,9 @@ UnitTestSessionAction 1494525303537 TestBowling.java OK
 EditAction 1494525603000 Frame.java 951 6 8 0
 EditAction 1494525606605 Frame.java 947 6 8 0
 EditAction 1494526301499 BowlingGame.java 1005 4 1 0
+CompilationAction 1494526301739 BowlingGame.java
+CompilationAction 1494526301740 BowlingGame.java
+CompilationAction 1494526321025 BowlingGame.java
+RefactoringAction 1494526328025 Frame.java ADD int bou FIELD
+RefactoringAction 1494526329538 Frame.java RENAME bou=>int bonus FIELD
+EditAction 1494526332448 Frame.java 964 6 8 0

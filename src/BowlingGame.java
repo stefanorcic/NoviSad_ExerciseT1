@@ -31,15 +31,9 @@ public class BowlingGame {
 			if(frames.get(i).isSpare()){
 				
 			} else {
-				score += frame.score();
+				score += frames.get(i).score();
 			}
 			
-		}
-		for (Frame frame : frames) {
-			if(frame.isSpare()) {
-				frame.
-			}
-			score += frame.score();
 		}
 		
 		return score;
